@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Robot Grid Mission — Printable</title>
+  <style>
+    body{font-family: sans-serif; max-width:800px;margin:0 auto;padding:1rem}
+    h1{font-size:1.4rem}
+    .grid{display:grid;grid-template-columns:repeat(8,1fr);gap:4px;margin:1rem 0}
+    .cell{border:1px solid #000;padding:12px;height:48px}
+    .instructions{margin:0.5rem 0}
+  </style>
+  </head>
+<body>
+  <h1>Robot Grid Mission — Student Sheet</h1>
+  <p class="instructions">Draw a path from Start to Goal using arrows. Then write the sequence of moves for your robot.</p>
+  <div class="grid">
+    <!-- 8x6 grid area -->
+    <!-- empty cells for printing -->
+    <!-- keep simple boxes for photocopying -->
+    
+    <!-- generate 48 cells -->
+    
+    <script>
+      for(let i=0;i<48;i++) document.write('<div class="cell"></div>')
+    </script>
+  </div>
+  <h2>Write commands</h2>
+  <p>Use: Forward, Left, Right, Repeat</p>
+  <ol>
+    <li>________________________</li>
+    <li>________________________</li>
+    <li>________________________</li>
+    <li>________________________</li>
+  </ol>
+</body>
+</html>
